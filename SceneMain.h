@@ -4,6 +4,10 @@
 #include "enemy.h"
 #include "shot.h"
 
+//プロパティからc/cの追加のインクルードディレクトリで　　$(ProjectDir)ファイル名を書く
+
+
+
 class SceneMain
 {
 public:

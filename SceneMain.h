@@ -7,7 +7,6 @@
 //プロパティからc/cの追加のインクルードディレクトリで　　$(ProjectDir)ファイル名を書く
 
 
-
 class SceneMain
 {
 public:
@@ -24,6 +23,9 @@ public:
 	// 毎フレームの描画
 	void draw();
 	
+	//ショットを撃つ
+	bool createShot(Vec2 pos);
+
 private:
 	// ショットの最大数
 	static constexpr int kShotMax = 64;

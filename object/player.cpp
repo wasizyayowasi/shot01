@@ -76,7 +76,7 @@ void Player::update()
 	if (padState & PAD_INPUT_1)
 	{
 		if ((m_pMain) && (m_shotInterval <= 0)) {
-			m_pMain->createShot(m_pos);
+			m_pMain->createShot(m_pos,true);
 			m_shotInterval = kShotInterval;
 		}
 	}
